@@ -1,0 +1,12 @@
+<section id="skills" class="py-16 bg-gradient-to-r from-pink-200 to-orange-200 text-gray-800">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-8">Compétences</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+          <div *ngFor="let skill of skills">
+              <div *ngFor="let i of skill">
+                <div class="p-4 mt-2 bg-white rounded-lg shadow hover:shadow-lg transition">{{i.name}}</div>
+              </div>
+          </div>
+      </div>
+    </div>
+</section>
