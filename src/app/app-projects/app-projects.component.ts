@@ -48,24 +48,30 @@ export class AppProjectsComponent {
       technologies: 'Swift',
       demo: '',
       github: '',
-        details : [
-          {
-            img : 'assets/AcceuilMobile.png',
-            message: "Page d’accueil avec annonces colorées selon leur importance et accès à une FAQ interactive."
-          },
-          {
-            img : 'assets/ListeArtisteMobile.png',
-            message: "Liste filtrable des artistes par pays, genre musical et jour de passage, avec codes couleurs pour identifier les genres."
-          },
-          {
-            img: 'assets/DetailArtisteMobile.png',
-            message: "Fiche détaillée d’un artiste avec ses réseaux sociaux et ses horaires de concert."
-          },
-          {
-            img: 'assets/PlanningMobile.png',
-            message: "Planning interactif avec filtres avancés (jours, artistes, genres) et légende des codes couleurs pour une lecture simplifiée."
-          }
-        ]
+      details : [
+        {
+          img : 'assets/AcceuilMobile.png',
+          message: "Page d’accueil avec annonces colorées selon leur importance et accès à une FAQ interactive."
+        },
+        {
+          img : 'assets/ListeArtisteMobile.png',
+          message: "Liste filtrable des artistes par pays, genre musical et jour de passage, avec codes couleurs pour identifier les genres."
+        },
+        {
+          img: 'assets/DetailArtisteMobile.png',
+          message: "Fiche détaillée d’un artiste avec ses réseaux sociaux et ses horaires de concert."
+        },
+        {
+          img: 'assets/PlanningMobile.png',
+          message: "Planning interactif avec filtres avancés (jours, artistes, genres) et légende des codes couleurs pour une lecture simplifiée."
+        }
+      ]
+    },
+    {
+      title: 'Portfolio',
+      description: "Site Web développé en TypeScript avec Angular et TailwindCSS affichant les différents projets que j'ai pu mener à bien.",
+      technologies: 'TypeScript (Angular) & TailwindCSS',
+      github: 'https://github.com/GaetanGui/portfolio-angular/tree/master'
     }
   ];
 
