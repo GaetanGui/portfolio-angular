@@ -1,11 +1,12 @@
 import { NgFor } from '@angular/common';
 import { Component, HostListener } from '@angular/core';
 import { NgIf } from '@angular/common';
+import { TranslatePipe } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-projects',
   standalone: true,
-  imports: [NgFor, NgIf],
+  imports: [NgFor, NgIf, TranslatePipe],
   templateUrl: './app-projects.component.html',
   styleUrl: './app-projects.component.css'
 })
@@ -14,64 +15,64 @@ export class AppProjectsComponent {
   isLink: boolean = false;
   projects = [
     {
-      title: 'Projet FIMU : Site Web Administrateur',
-      description: "Site administrateur permettant de piloter les données du festival",
-      technologies: 'VueJS, CSS, NodeJS et MySQL',
+      title: 'projects.fimuWeb.title',
+      description: "projects.fimuWeb.description",
+      technologies: 'projects.fimuWeb.technologies',
       demo: '',
       github: '',
       details : [
         {
           img : 'assets/ArtisteListe.png',
-          message: 'Liste des artistes avec leurs informations, filtrables et facilement modifiables pour simplifier le travail des organisateurs.'
+          message: 'projects.fimuWeb.details.message1'
         },
         {
           img: 'assets/DetailArtiste.png',
-          message: 'Accès aux informations détaillées d’un artiste via le bouton de consultation.'
+          message: 'projects.fimuWeb.details.message2'
         },
         {
           img: 'assets/EditArtiste.png',
-          message: 'Page d’édition permettant de corriger ou mettre à jour les données, synchronisées en temps réel avec l’application mobile.'
+          message: 'projects.fimuWeb.details.message3'
         },
         {
           img: 'assets/Planning.png',
-          message: 'Visualisation claire du déroulement des concerts, avec possibilité de consulter le détail de chaque événement en un clic.'
+          message: 'projects.fimuWeb.details.message4'
         },
         {
           img: 'assets/ImportCSV.png',
-          message: 'Import automatique des fichiers CSV préparés par les organisateurs, garantissant une continuité de leur méthode de travail et une mise à jour directe des données dans l’application mobile.'
+          message: 'projects.fimuWeb.details.message5'
         }
       ]
     },
     {
-      title: 'Projet FIMU : Application mobile',
-      description: 'Application Mobile IOS affichant les données du festival pour les visiteurs. A noter que dans cette application, contrairement au site administrateur aucunes modifications de données ne sera possible.',
-      technologies: 'Swift',
+      title: 'projects.fimuMobile.title',
+      description: 'projects.fimuMobile.description',
+      technologies: 'projects.fimuMobile.technologies',
       demo: '',
       github: '',
       details : [
         {
           img : 'assets/AcceuilMobile.png',
-          message: "Page d’accueil avec annonces colorées selon leur importance et accès à une FAQ interactive."
+          message: "projects.fimuMobile.details.message1"
         },
         {
           img : 'assets/ListeArtisteMobile.png',
-          message: "Liste filtrable des artistes par pays, genre musical et jour de passage, avec codes couleurs pour identifier les genres."
+          message: "projects.fimuMobile.details.message2"
         },
         {
           img: 'assets/DetailArtisteMobile.png',
-          message: "Fiche détaillée d’un artiste avec ses réseaux sociaux et ses horaires de concert."
+          message: "projects.fimuMobile.details.message3"
         },
         {
           img: 'assets/PlanningMobile.png',
-          message: "Planning interactif avec filtres avancés (jours, artistes, genres) et légende des codes couleurs pour une lecture simplifiée."
+          message: "projects.fimuMobile.details.message4"
         }
       ]
     },
     {
-      title: 'Portfolio',
-      description: "Site Web développé en TypeScript avec Angular et TailwindCSS affichant les différents projets que j'ai pu mener à bien.",
-      technologies: 'TypeScript (Angular) & TailwindCSS',
-      github: 'https://github.com/GaetanGui/portfolio-angular/tree/master'
+      title: 'projects.portfolio.title',
+      description: "projects.portfolio.description",
+      technologies: 'projects.portfolio.technologies',
+      github: 'projects.portfolio.github'
     }
   ];
 

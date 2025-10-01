@@ -1,0 +1,66 @@
+{
+    "header" : {
+        "title" : "Mon Portfolio",
+        "home" : "Acceuil",
+        "about" : "À propos",
+        "skills" : "Compétences",
+        "projects" : "Projets",
+        "contact" : "Contact"
+    },
+    "hero" : {
+        "name" : "Gaëtan JOBST",
+        "role" : "Développeur Web Full Stack",
+        "description" : "À la recherche d'une alternance pour renforcer mes compétences en contribuant à des projets concrets 🚀",
+        "download" : "Télécharger mon CV"
+    },
+    "about": {
+        "title" : "À propos de moi",
+        "description": "Actuellement en formation au sein de l'école LiveCampus, je recherche une alternance afin de mettre en pratique mes compétences en Front-end(AngularTS, Html, CSS, TailwindCSS, Bootstrap...), en Back-end (C# .NET, Python, NodeJS...), en Développement Mobile(Swift, Kotlin) et bases de données tout en continuant à apprendre et progresser aux côtés d’une équipe dynamique.",
+        "qualities" : "Curieux, rigoureux et motivé, je suis prêt à relever de nouveaux défis techniques et à contribuer à des projets concrets qui ont de l’impact.",
+        "prime" : "En recherche d'une alternance avec un rythme de 1 semaine école / 3 semaines entreprise - Eligible à la prime pouvant allé jusqu'à 5 000€",
+        "school" : "Contact de l'école : Laurie Forgeron, laurie.forgeron@livecampus.fr, 07 56 28 93 69"
+    },
+    "skills" : {
+        "title" : "Compétences"
+    },
+    "projects" : {
+        "title" : "Projets",
+        "fimuWeb" : {
+            "title": "Projet FIMU : Site Web Administrateur",
+            "description" : "Site administrateur permettant de piloter les données du festival",
+            "technologies" : "VueJS, CSS, NodeJS et MySQL",
+            "details" : {
+                "message1" : "Liste des artistes avec leurs informations, filtrables et facilement modifiables pour simplifier le travail des organisateurs.",
+                "message2" : "Accès aux informations détaillées d’un artiste via le bouton de consultation.",
+                "message3" : "Page d’édition permettant de corriger ou mettre à jour les données, synchronisées en temps réel avec l’application mobile.",
+                "message4" : "Visualisation claire du déroulement des concerts, avec possibilité de consulter le détail de chaque événement en un clic.",
+                "message5" : "Import automatique des fichiers CSV préparés par les organisateurs, garantissant une continuité de leur méthode de travail et une mise à jour directe des données dans l’application mobile."
+            }
+        },
+        "fimuMobile" : {
+            "title": "Projet FIMU : Application mobile",
+            "description" : "Application Mobile IOS affichant les données du festival pour les visiteurs. A noter que dans cette application, contrairement au site administrateur aucunes modifications de données ne sera possible.",
+            "technologies" : "Swift",
+            "details" : {
+                "message1" : "Page d’accueil avec annonces colorées selon leur importance et accès à une FAQ interactive.",
+                "message2" : "Liste filtrable des artistes par pays, genre musical et jour de passage, avec codes couleurs pour identifier les genres.",
+                "message3" : "Fiche détaillée d’un artiste avec ses réseaux sociaux et ses horaires de concert.",
+                "message4" : "Planning interactif avec filtres avancés (jours, artistes, genres) et légende des codes couleurs pour une lecture simplifiée."
+            }
+        },
+        "portfolio" : {
+            "title" : "Portfolio",
+            "description" : "Site Web développé en TypeScript avec Angular et TailwindCSS affichant les différents projets scolaires que j'ai pu mener à bien.",
+            "technologies" : "TypeScript (Angular) & TailwindCSS",
+            "github" : "https://github.com/GaetanGui/portfolio-angular/tree/master"
+        }
+    },
+    "contact" : {
+        "title" : "Contact",
+        "subject" : "Objet",
+        "name" : "Nom",
+        "email" : "Email",
+        "message" : "Message",
+        "send" : "Envoyer"
+    }
+}

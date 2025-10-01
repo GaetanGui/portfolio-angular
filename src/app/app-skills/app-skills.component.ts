@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { NgFor } from '@angular/common';
+import { TranslateModule, TranslatePipe } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-skills',
   standalone: true,
-  imports: [NgFor],
+  imports: [NgFor, TranslateModule, TranslatePipe],
   templateUrl: './app-skills.component.html',
   styleUrl: './app-skills.component.css'
 })

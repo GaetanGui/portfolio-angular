@@ -1,0 +1,66 @@
+{
+    "header" : {
+        "title" : "My Portfolio",
+        "home" : "Home",
+        "about" : "About",
+        "skills" : "Skills",
+        "projects" : "Projects",
+        "contact" : "Contact"
+    },
+    "hero": {
+        "name": "Gaëtan JOBST",
+        "role": "Full Stack Web Developer",
+        "description": "Looking for an apprenticeship to strengthen my skills by contributing to real-world projects 🚀",
+        "download": "Download my CV"
+    },
+    "about": {
+        "title" : "About me",
+        "description": "Currently enrolled at LiveCampus, I am seeking an apprenticeship to put into practice my skills in Front-end (AngularTS, HTML, CSS, TailwindCSS, Bootstrap...), Back-end (C# .NET, Python, NodeJS...), Mobile Development (Swift, Kotlin), and databases, while continuing to learn and grow alongside a dynamic team.",
+        "qualities" : "Curious, rigorous, and motivated, I am ready to take on new technical challenges and contribute to meaningful projects that make an impact.",
+        "prime" : "Currently seeking an apprenticeship with a schedule of 1 week at school / 3 weeks in the company – Eligible for a grant of up to €5,000.",
+        "school" : "School contact: Laurie Forgeron, laurie.forgeron@livecampus.fr, +33 7 56 28 93 69"
+    },
+    "skills" : {
+        "title" : "Skills"
+    },
+    "projects": {
+        "title": "Projects",
+        "fimuWeb": {
+            "title": "FIMU Project: Administrator Website",
+            "description": "Administrator website to manage the festival data",
+            "technologies": "VueJS, CSS, NodeJS and MySQL",
+            "details": {
+            "message1": "List of artists with their information, filterable and easily editable to simplify the organizers’ work.",
+            "message2": "Access detailed information about an artist via the view button.",
+            "message3": "Editing page to correct or update data, synchronized in real time with the mobile app.",
+            "message4": "Clear visualization of the concert schedule, with the ability to view event details in one click.",
+            "message5": "Automatic import of CSV files prepared by the organizers, ensuring continuity of their workflow and direct data updates in the mobile app."
+            }
+        },
+        "fimuMobile": {
+            "title": "FIMU Project: Mobile Application",
+            "description": "iOS Mobile Application displaying festival data for visitors. Note that unlike the administrator website, no data modification will be possible in this app.",
+            "technologies": "Swift",
+            "details": {
+            "message1": "Home page with color-coded announcements according to their importance and access to an interactive FAQ.",
+            "message2": "Filterable list of artists by country, musical genre, and performance day, with color codes to identify genres.",
+            "message3": "Detailed artist profile with social media and concert schedules.",
+            "message4": "Interactive schedule with advanced filters (days, artists, genres) and a color code legend for easier reading."
+            }
+        },
+        "portfolio": {
+            "title": "Portfolio",
+            "description": "Website developed in TypeScript with Angular and TailwindCSS showcasing the different academic projects I have successfully completed.",
+            "technologies": "TypeScript (Angular) & TailwindCSS",
+            "github": "https://github.com/GaetanGui/portfolio-angular/tree/master"
+        }
+    },
+    "contact" : {
+        "title" : "Contact",
+        "subject" : "Subject",
+        "name" : "Name",
+        "email" : "Email",
+        "message" : "Message",
+        "send" : "Send"
+    }
+}
