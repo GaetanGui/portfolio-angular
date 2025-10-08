@@ -17,8 +17,8 @@
         "title" : "About me",
         "description": "Currently enrolled at LiveCampus, I am seeking an apprenticeship to put into practice my skills in Front-end (AngularTS, HTML, CSS, TailwindCSS, Bootstrap...), Back-end (C# .NET, Python, NodeJS...), Mobile Development (Swift, Kotlin), and databases, while continuing to learn and grow alongside a dynamic team.",
         "qualities" : "Curious, rigorous, and motivated, I am ready to take on new technical challenges and contribute to meaningful projects that make an impact.",
-        "prime" : "Currently seeking an apprenticeship with a schedule of 1 week at school / 3 weeks in the company – Eligible for a grant of up to €5,000.",
-        "school" : "School contact: Laurie Forgeron, laurie.forgeron@livecampus.fr, +33 7 56 28 93 69"
+        "prime" : "Currently seeking an apprenticeship in web and/or mobile development",
+        "school" : ""
     },
     "skills" : {
         "title" : "Skills"

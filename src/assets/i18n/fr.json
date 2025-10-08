@@ -17,8 +17,8 @@
         "title" : "À propos de moi",
         "description": "Actuellement en formation au sein de l'école LiveCampus, je recherche une alternance afin de mettre en pratique mes compétences en Front-end(AngularTS, Html, CSS, TailwindCSS, Bootstrap...), en Back-end (C# .NET, Python, NodeJS...), en Développement Mobile(Swift, Kotlin) et bases de données tout en continuant à apprendre et progresser aux côtés d’une équipe dynamique.",
         "qualities" : "Curieux, rigoureux et motivé, je suis prêt à relever de nouveaux défis techniques et à contribuer à des projets concrets qui ont de l’impact.",
-        "prime" : "En recherche d'une alternance avec un rythme de 1 semaine école / 3 semaines entreprise - Eligible à la prime pouvant allé jusqu'à 5 000€",
-        "school" : "Contact de l'école : Laurie Forgeron, laurie.forgeron@livecampus.fr, 07 56 28 93 69"
+        "prime" : "En recherche d'une alternance en développement mobile et/ou web ", 
+        "school" : ""
     },
     "skills" : {
         "title" : "Compétences"
