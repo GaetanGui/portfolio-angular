@@ -1,5 +1,6 @@
-<nav class="flex justify-between items-center p-4 bg-gray-900 text-white fixed w-full top-0 shadow-md z-50">
+<nav class="flex test justify-between items-center p-4 bg-gray-900 text-white fixed w-full top-0 shadow-md z-50">
     <div class="text-xl font-bold">{{ 'header.title' | translate }}</div>
+
     <ul class="flex gap-6">
       <li><a href="#hero" class="hover:text-blue-400">{{ 'header.home' | translate }}</a></li>
       <li><a href="#about" class="hover:text-blue-400">{{ 'header.about' | translate }}</a></li>
@@ -7,9 +8,9 @@
       <li><a href="#projects" class="hover:text-blue-400">{{ 'header.projects' | translate }}</a></li>
       <li><a href="#contact" class="hover:text-blue-400">{{ 'header.contact' | translate }}</a></li>
       
-      <div class="">
+      <li>
           <button mat-button [matMenuTriggerFor]="menu">
-            <p>{{selectedItem}}</p>
+            <span>{{selectedItem}}</span>  <i class="fa-solid fa-chevron-down icon"></i>
           </button>
 
           <mat-menu #menu="matMenu" xPosition="after" yPosition="below">
@@ -17,7 +18,7 @@
                   {{ item }}
               </button>
           </mat-menu>
-      </div>
+      </li>
     
     </ul>
   </nav>

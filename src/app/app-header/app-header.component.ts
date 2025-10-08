@@ -7,7 +7,7 @@ import { NgFor } from '@angular/common';
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [MatMenuTrigger, MatMenuItem, MatMenuModule, NgFor, TranslatePipe, TranslateDirective],
+  imports: [MatMenuTrigger, MatMenuItem, MatMenuModule, NgFor, TranslatePipe],
   templateUrl: './app-header.component.html',
   styleUrl: './app-header.component.css'
 })
